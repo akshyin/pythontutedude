@@ -5,7 +5,13 @@ y=input("enter the last name: ")
 #put two blank line as shown in output
 print('')
 print('')
+#check the input x and y are non empty
+if x=='':
+    print("First Name can not be empty")
+elif y=='':
+    print("First Name can not be empty")
+else:  
 #use string print to show the welcome message to the user
 #use string concatenation for including the name in welcome message.
-print("Hello "+x+" "+y+", Welcome to the python course");
+    print("Hello, "+x+" "+y+"!, Welcome to the python program");
 
